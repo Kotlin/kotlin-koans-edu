@@ -1,0 +1,57 @@
+<h2>Builders: how it works</h2>
+<p>Look at the questions below and give your answers</p>
+<p><strong>1. In the Kotlin code</strong></p><pre><code data-lang="text/x-kotlin">tr {
+    td {
+        text(&quot;Product&quot;)
+    }
+    td {
+        text(&quot;Popularity&quot;)
+    }
+}
+</code></pre>
+<p><strong>'td' is:</strong></p>
+<p>a. special built-in syntactic construct</p>
+<p>b. function declaration</p>
+<p>c. function invocation</p>
+<hr/>
+<p><strong>2. In the Kotlin code</strong></p><pre><code data-lang="text/x-kotlin">tr (color = &quot;yellow&quot;) {
+    td {
+        text(&quot;Product&quot;)
+    }
+    td {
+        text(&quot;Popularity&quot;)
+    }
+}
+</code></pre>
+<p><strong>'color' is:</strong></p>
+<p>a. new variable declaration</p>
+<p>b. argument name</p>
+<p>c. argument value</p>
+<hr/>
+<p><strong>3. The block</strong></p><pre><code data-lang="text/x-kotlin">{
+    text(&quot;Product&quot;)
+}
+</code></pre>
+<p><strong>from the previous question is:</strong></p>
+<p>a. block inside built-in syntax construction <code>td</code></p>
+<p>b. function literal (or "lambda")</p>
+<p>c. something mysterious</p>
+<hr/>
+<p><strong>4. For the code</strong></p><pre><code data-lang="text/x-kotlin">tr (color = &quot;yellow&quot;) {
+    this.td {
+        text(&quot;Product&quot;)
+    }
+    td {
+        text(&quot;Popularity&quot;)
+    }
+}
+</code></pre>
+<p><strong>which of the following is true:</strong></p>
+<p>a. this code doesn't compile</p>
+<p>b. <code>this</code> refers to an instance of an outer class</p>
+<p>c. <code>this</code> refers to a receiver parameter TR of the function literal:</p><pre><code data-lang="text/x-kotlin">tr (color = &quot;yellow&quot;) { TR.(): Unit -&gt;
+      this.td {
+          text(&quot;Product&quot;)
+      }
+}
+</code></pre>

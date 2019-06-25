@@ -1,0 +1,12 @@
+<h2>Smart casts</h2>
+<p>Rewrite the following Java code using <a href="http://kotlinlang.org/docs/reference/typecasts.html#smart-casts">smart casts</a> and <a href="http://kotlinlang.org/docs/reference/control-flow.html#when-expression">when</a> expression:</p><pre><code data-lang="text/x-java">public int eval(Expr expr) {
+    if (expr instanceof Num) {
+        return ((Num) expr).getValue();
+    }
+    if (expr instanceof Sum) {
+        Sum sum = (Sum) expr;
+        return eval(sum.getLeft()) + eval(sum.getRight());
+    }
+    throw new IllegalArgumentException(&quot;Unknown expression&quot;);
+}
+</code></pre>

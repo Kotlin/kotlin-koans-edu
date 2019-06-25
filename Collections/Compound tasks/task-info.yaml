@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 166
+    length: 82
+    placeholder_text: TODO()
+  - offset: 446
+    length: 80
+    placeholder_text: TODO()
+  - offset: 530
+    length: 98
+    placeholder_text: /* TODO */
+- name: src/TestShop.kt
+  visible: true
+- name: src/Shop.kt
+  visible: true
+- name: test/tests.kt
+  visible: false

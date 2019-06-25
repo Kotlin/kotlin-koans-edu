@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 60
+    length: 93
+    placeholder_text: /* TODO */
+- name: src/MyDate.kt
+  visible: true
+- name: test/tests.kt
+  visible: false

@@ -1,0 +1,15 @@
+<h2>Default arguments</h2>
+<p>There are several overloads of 'foo()' in Java:</p><pre><code data-lang="text/x-java">public String foo(String name, int number, boolean toUpperCase) {
+    return (toUpperCase ? name.toUpperCase() : name) + number;
+}
+public String foo(String name, int number) {
+    return foo(name, number, false);
+}
+public String foo(String name, boolean toUpperCase) {
+    return foo(name, 42, toUpperCase);
+}
+public String foo(String name) {
+    return foo(name, 42);
+}
+</code></pre>
+<p>All these Java overloads can be replaced with one function in Kotlin. Change the declaration of the function <code>foo</code> in a way that makes the code using <code>foo</code> compile. Use <a href="http://kotlinlang.org/docs/reference/functions.html#default-arguments">default and named</a> arguments.</p>

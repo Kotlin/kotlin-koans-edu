@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 58
+    length: 19
+    placeholder_text: //TODO("return the list sorted in descending order")
+- name: test/tests.kt
+  visible: false

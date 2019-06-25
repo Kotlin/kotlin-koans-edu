@@ -1,0 +1,18 @@
+<h2>String and map builders</h2>
+<p>Extension function literals are very useful for creating builders, e.g.:</p><pre><code data-lang="text/x-kotlin">fun buildString(build: StringBuilder.() -&gt; Unit): String {
+    val stringBuilder = StringBuilder()
+    stringBuilder.build()
+    return stringBuilder.toString()
+}
+
+val s = buildString {
+    this.append(&quot;Numbers: &quot;)
+    for (i in 1..3) {
+        // &#39;this&#39; can be omitted
+        append(i)
+    }
+}
+
+s == &quot;Numbers: 123&quot;
+</code></pre>
+<p>Add and implement the function 'buildMap' with one parameter (of type extension function) creating a new HashMap, building it and returning it as a result. The usage of this function is shown below.</p>

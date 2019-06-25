@@ -1,0 +1,29 @@
+<h2>Get used to new style</h2>
+<p>Rewrite the following Java function to Kotlin.</p><pre><code data-lang="text/x-java">public Collection&lt;String&gt; doSomethingStrangeWithCollection(
+        Collection&lt;String&gt; collection
+) {
+    Map&lt;Integer, List&lt;String&gt;&gt; groupsByLength = Maps.newHashMap();
+    for (String s : collection) {
+        List&lt;String&gt; strings = groupsByLength.get(s.length());
+        if (strings == null) {
+            strings = Lists.newArrayList();
+            groupsByLength.put(s.length(), strings);
+        }
+        strings.add(s);
+    }
+
+    int maximumSizeOfGroup = 0;
+    for (List&lt;String&gt; group : groupsByLength.values()) {
+        if (group.size() &gt; maximumSizeOfGroup) {
+            maximumSizeOfGroup = group.size();
+        }
+    }
+
+    for (List&lt;String&gt; group : groupsByLength.values()) {
+        if (group.size() == maximumSizeOfGroup) {
+            return group;
+        }
+    }
+    return null;
+}
+</code></pre>

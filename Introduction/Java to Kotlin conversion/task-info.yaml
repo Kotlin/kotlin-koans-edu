@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 372
+    placeholder_text: 'fun toJSON(collection: Collection<Int>): String = TODO()'
+- name: src/JavaCode.java
+  visible: true
+- name: test/tests.kt
+  visible: false

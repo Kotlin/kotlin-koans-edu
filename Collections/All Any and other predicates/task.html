@@ -1,0 +1,8 @@
+<h2>All, Any and other predicates</h2>
+<p>Implement all the functions below using <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/all.html"><code>all</code></a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/any.html"><code>any</code></a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/count.html"><code>count</code></a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/find.html"><code>find</code></a>.</p><pre><code data-lang="text/x-kotlin">val numbers = listOf(-1, 0, 2)
+val isZero: (Int) -&gt; Boolean = { it == 0 }
+numbers.any(isZero) == true
+numbers.all(isZero) == false
+numbers.count(isZero) == 1
+numbers.find { it &gt; 0 } == 2
+</code></pre>

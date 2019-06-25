@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 69
+    placeholder_text: 'fun foo(name: String, number: Int, toUpperCase: Boolean)'
+- name: test/tests.kt
+  visible: false

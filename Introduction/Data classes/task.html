@@ -1,0 +1,21 @@
+<h2>Data classes</h2>
+<p>Rewrite the following Java code to Kotlin:</p><pre><code data-lang="text/x-java">public class Person {
+    private final String name;
+    private final int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+</code></pre>
+<p>Then add an annotation <code>data</code> to the resulting class. This annotation means the compiler will generate a bunch of useful methods in this class: <code>equals</code>/<code>hashCode</code>, <code>toString</code> and some others. The <code>getPeople</code> function should start to compile.</p>
+<p>Read about <a href="http://kotlinlang.org/docs/reference/classes.html">classes</a>, <a href="http://kotlinlang.org/docs/reference/properties.html">properties</a> and <a href="https://kotlinlang.org/docs/reference/data-classes.html">data classes</a>.</p>

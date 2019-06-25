@@ -1,0 +1,6 @@
+<h2>In range</h2>
+<p>In Kotlin <code>in</code> checks are translated to the corresponding <code>contains</code> calls:</p><pre><code data-lang="text/x-kotlin">val list = listOf(&quot;a&quot;, &quot;b&quot;)
+&quot;a&quot; in list  // list.contains(&quot;a&quot;)
+&quot;a&quot; !in list // !list.contains(&quot;a&quot;)
+</code></pre>
+<p>Read about <a href="http://kotlinlang.org/docs/reference/ranges.html">ranges</a>. Add a method <code>fun contains(d: MyDate)</code> to the class <code>DateRange</code> to allow <code>in</code> checks with a range of dates.</p>

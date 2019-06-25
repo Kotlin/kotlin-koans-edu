@@ -1,0 +1,13 @@
+title: Kotlin Koans
+language: English
+summary: "This tutorial walks you through a series of exercises to get familiar with\
+  \ Kotlin. \nKotlin Koans are a series of exercises to get you familiar with the\
+  \ Kotlin Syntax.\n\nOfficial Kotlin website – https://kotlinlang.org"
+programming_language: Kotlin
+content:
+- Introduction
+- Conventions
+- Collections
+- Properties
+- Builders
+- Generics

@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 20
+    length: 311
+    placeholder_text: fun partitionTo() = TODO()
+- name: test/tests.kt
+  visible: false

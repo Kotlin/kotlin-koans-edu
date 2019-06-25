@@ -1,0 +1,7 @@
+<h2>Invoke</h2>
+<p>Objects with <code>invoke()</code> method can be invoked as a function.</p>
+<p>You can add <code>invoke</code> extension for any class, but it's better not to overuse it:</p><pre><code data-lang="text/x-kotlin">fun Int.invoke() { println(this) }
+
+1() //huh?..
+</code></pre>
+<p>Implement the function <code>Invokable.invoke()</code> so it would count a number of invocations.</p>
