@@ -26,6 +26,6 @@ Then add a modifier `data` to the resulting class.
 This annotation means the compiler will generate a bunch of useful methods in this class: `equals`/`hashCode`, `toString` and some others.
 The `getPeople` function should start to compile.
 
-Read about [classes](classes),
-[properties](properties)
-and [data classes](data_classes).
+Read about [classes](http://kotlinlang.org/docs/reference/classes.html),
+[properties](http://kotlinlang.org/docs/reference/properties.html)
+and [data classes](https://kotlinlang.org/docs/reference/data-classes.html).

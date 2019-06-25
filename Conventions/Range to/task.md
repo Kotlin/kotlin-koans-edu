@@ -8,5 +8,5 @@ MyDate(2015, 5, 11)..MyDate(2015, 5, 12)
 ```
 
 Note that now the class `DateRange` implements the standard
-[`ClosedRange`](closed_range)
+[`ClosedRange`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.ranges/kotlin.-closed-range/index.html)
 interface and inherits `contains` method implementation.

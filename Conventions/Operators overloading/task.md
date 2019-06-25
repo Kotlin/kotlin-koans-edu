@@ -5,7 +5,7 @@ You could be able to write the code like this: `date + YEAR * 2 + WEEK * 3 + DAY
 
 At first, add an extension function 'plus()' to MyDate, taking a TimeInterval as an argument.
 Use an utility function `MyDate.addTimeIntervals()` declared in
-[DateUtil.kt](date_util_file2)
+`DateUtil.kt`
 
 Then, try to support adding several time intervals to a date.
 You may need an extra class.

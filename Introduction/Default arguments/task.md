@@ -19,4 +19,4 @@ public String foo(String name) {
 
 All these Java overloads can be replaced with one function in Kotlin.
 Change the declaration of the function `foo` in a way that makes the code using `foo` compile.
-Use [default and named](default_and_named) arguments.
+Use [default and named](http://kotlinlang.org/docs/reference/functions.html#default-arguments) arguments.

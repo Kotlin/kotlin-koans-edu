@@ -1,7 +1,7 @@
 ## Group By
 
 Implement `Shop.groupCustomersByCity()` using
-[`groupBy`](group-by).
+[`groupBy`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/group-by.html).
 
 ```kotlin
 val result = listOf("a", "b", "ba", "ccc", "ad").groupBy { it.length() }

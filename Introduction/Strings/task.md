@@ -1,6 +1,6 @@
 ## Strings
 
-Read about [different string literals and string templates](string_literals) in Kotlin.
+Read about [different string literals and string templates](http://kotlinlang.org/docs/reference/basic-types.html#string-literals) in Kotlin.
 
 Raw strings are useful for writing regex patterns, you don't need to escape a backslash by a backslash.
 Below there is a pattern that matches a date in format `13.06.1992` (two digits, a dot, two digits, a dot, four digits):

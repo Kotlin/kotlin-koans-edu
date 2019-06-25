@@ -1,10 +1,10 @@
 ## All, Any and other predicates
 
 Implement all the functions below using
-[`all`](all),
-[`any`](any),
-[`count`](count),
-[`find`](find).
+[`all`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/all.html),
+[`any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/any.html),
+[`count`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/count.html),
+[`find`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/find.html).
 
 ```kotlin
 val numbers = listOf(-1, 0, 2)

@@ -1,8 +1,8 @@
 ## Filter; map
 
 Implement extension functions `Shop.getCitiesCustomersAreFrom()` and `Shop.getCustomersFrom()` using functions
-[`map`](map) and
-[`filter`](filter).
+[`map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/map.html) and
+[`filter`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/filter.html).
 
 ```kotlin
 val numbers = listOf(1, -1, 2)
