@@ -10,3 +10,5 @@ files:
   visible: true
 - name: test/tests.kt
   visible: false
+- name: task-info-wb.yaml
+  visible: false

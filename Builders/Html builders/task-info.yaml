@@ -17,3 +17,7 @@ files:
   visible: true
 - name: test/tests.kt
   visible: false
+- name: src/demo.kt.wb
+  visible: false
+- name: task.md.wb
+  visible: false
