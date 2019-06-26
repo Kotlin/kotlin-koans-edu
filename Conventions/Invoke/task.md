@@ -1,6 +1,7 @@
 ## Invoke
 
-Objects with `invoke()` method can be invoked as a function.
+Objects with [`invoke()`](https://kotlinlang.org/docs/reference/operator-overloading.html#invoke)
+method can be invoked as a function.
 
 You can add `invoke` extension for any class, but it's better not to overuse it:
 
