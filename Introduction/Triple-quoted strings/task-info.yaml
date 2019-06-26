@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 142
+    length: 16
+    placeholder_text: .trimIndent()
+- name: test/Tests.kt
+  visible: false

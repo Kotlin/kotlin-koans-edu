@@ -1,0 +1,18 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 160
+    length: 20
+    placeholder_text: // KRandom.nextInt(2) +
+  - offset: 223
+    length: 22
+    placeholder_text: // JRandom().nextInt(2) +
+  - offset: 0
+    length: 73
+    placeholder_text: |-
+      // import kotlin.random.Random
+      // import java.util.Random
+- name: test/Tests.kt
+  visible: false
