@@ -1,9 +1,9 @@
 import org.junit.Assert
 import org.junit.Test
-import koans.util.toMessage
+import koans.util.errorMessage
 
 class TestSum {
     @Test fun testGetTotalOrderPrice() {
-        Assert.assertTrue("getTotalOrderPrice".toMessage(), customers[nathan]!!.getTotalOrderPrice() == 148.0)
+        Assert.assertTrue(errorMessage("getTotalOrderPrice"), customers[nathan]!!.getTotalOrderPrice() == 148.0)
     }
 }

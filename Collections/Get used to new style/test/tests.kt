@@ -1,6 +1,5 @@
 import org.junit.Test
 import org.junit.Assert
-import koans.util.inEquals
 
 class TestExtensionsOnCollections {
     @Test fun testCollectionOfOneElement() {
@@ -20,7 +19,9 @@ class TestExtensionsOnCollections {
     }
 
     private fun doTest(expected: Collection<String>?, argument: Collection<String>) {
-        Assert.assertEquals("The function 'doSomethingStrangeWithCollection' should do at least something with a collection".inEquals(),
+        Assert.assertEquals(
+                "Wrong result for 'doSomethingStrangeWithCollection()' call on " +
+                        "${argument.joinToString(prefix = "[", postfix = "]") { "\"$it\"" }}:\n",
                 expected, doSomethingStrangeWithCollection(argument))
     }
 }

@@ -1,10 +1,10 @@
 import org.junit.Assert
 import org.junit.Test
-import koans.util.toMessage
+import koans.util.errorMessage
 
 class TestGroupBy {
     @Test fun testGroupCustomersByCity() {
-        Assert.assertTrue("groupCustomersByCity".toMessage(),
+        Assert.assertTrue(errorMessage("groupCustomersByCity"),
                 groupedByCities == shop.groupCustomersByCity())
     }
 }

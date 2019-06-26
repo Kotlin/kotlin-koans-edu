@@ -1,9 +1,9 @@
 import org.junit.Assert
 import org.junit.Test
-import koans.util.toMessage
+import koans.util.errorMessage
 
 class TestSort {
     @Test fun testGetCustomersSortedByNumberOfOrders() {
-        Assert.assertTrue("getCustomersSortedByNumberOfOrders".toMessage(), sortedCustomers == shop.getCustomersSortedByNumberOfOrders())
+        Assert.assertTrue(errorMessage("getCustomersSortedByNumberOfOrders"), sortedCustomers == shop.getCustomersSortedByNumberOfOrders())
     }
 }

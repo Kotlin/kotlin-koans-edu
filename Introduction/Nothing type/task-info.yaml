@@ -5,6 +5,6 @@ files:
   placeholders:
   - offset: 74
     length: 9
-    placeholder_text: type here
+    placeholder_text: '   '
 - name: test/Tests.kt
   visible: false

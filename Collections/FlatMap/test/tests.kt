@@ -1,15 +1,15 @@
 import org.junit.Assert
 import org.junit.Test
-import koans.util.toMessage
+import koans.util.errorMessage
 
 class TestFlatMap {
     @Test fun testGetOrderedProductsSet() {
-        Assert.assertTrue("getOrderedProducts".toMessage(),
+        Assert.assertTrue(errorMessage("getOrderedProducts"),
                 setOf(idea) == customers[reka]!!.getOrderedProducts())
     }
 
     @Test fun testGetAllOrderedProducts() {
-        Assert.assertTrue("getAllOrderedProducts".toMessage(),
+        Assert.assertTrue(errorMessage("getAllOrderedProducts"),
                 orderedProducts == shop.getAllOrderedProducts())
     }
 }
