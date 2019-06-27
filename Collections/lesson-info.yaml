@@ -5,9 +5,11 @@ content:
 - All Any and other predicates
 - Max min
 - Sum
+- Associate
 - GroupBy
 - Partition
 - FlatMap
 - Fold
 - Compound tasks
+- Sequences
 - Getting used to new style

@@ -17,3 +17,8 @@ might be helpful.
 listOf(1, 42, 4).max() == 42
 listOf("a", "ab").minBy { it.length } == "a"
 ```
+
+You can use [callable references](https://kotlinlang.org/docs/reference/lambdas.html#instantiating-a-function-type)
+instead of lambdas. That's especially helpful in call chains, when
+`it` occurs in different lambdas and has different types.
+Implement `getMostExpensiveProductBy` function using callable references.  
