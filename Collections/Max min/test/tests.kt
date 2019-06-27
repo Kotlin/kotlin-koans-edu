@@ -5,11 +5,11 @@ import koans.util.errorMessage
 class TestMaxMin {
     @Test fun testCustomerWithMaximumNumberOfOrders() {
         Assert.assertTrue(errorMessage("getCustomerWithMaximumNumberOfOrders"),
-                customers[reka] == shop.getCustomerWithMaximumNumberOfOrders())
+                customers[reka] == shop.getCustomerWithMaxOrders())
     }
 
     @Test fun testTheMostExpensiveOrderedProduct() {
         Assert.assertTrue(errorMessage("getMostExpensiveOrderedProduct"),
-                rubyMine == customers[nathan]!!.getMostExpensiveOrderedProduct())
+                rubyMine == getMostExpensiveProductBy(customers[nathan]!!))
     }
 }

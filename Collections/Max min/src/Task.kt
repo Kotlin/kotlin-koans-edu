@@ -1,5 +1,7 @@
-// Return a customer whose order count is the highest among all customers
-fun Shop.getCustomerWithMaximumNumberOfOrders(): Customer? = customers.maxBy { it.orders.size }
+// Return a customer who has placed the maximum amount of orders
+fun Shop.getCustomerWithMaxOrders(): Customer? =
+        customers.maxBy { it.orders.size }
 
-// Return the most expensive product which has been ordered
-fun Customer.getMostExpensiveOrderedProduct(): Product? = orders.flatMap { it.products }.maxBy { it.price }
+// Return the most expensive product that has been ordered by the given customer
+fun getMostExpensiveProductBy(customer: Customer): Product? =
+        customer.orders.flatMap { it.products }.maxBy { it.price }

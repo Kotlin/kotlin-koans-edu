@@ -10,8 +10,5 @@ content:
 - Smart casts
 - Extension functions
 - Lambdas
-- Object expressions
-- SAM conversions
-- Extensions on collections
 - Rename on import
 - Nothing type

@@ -4,6 +4,6 @@ import koans.util.errorMessage
 
 class TestSum {
     @Test fun testGetTotalOrderPrice() {
-        Assert.assertTrue(errorMessage("getTotalOrderPrice"), customers[nathan]!!.getTotalOrderPrice() == 148.0)
+        Assert.assertTrue(errorMessage("getTotalOrderPrice"), moneySpentBy(customers[nathan]!!) == 148.0)
     }
 }

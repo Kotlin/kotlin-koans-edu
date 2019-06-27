@@ -5,6 +5,6 @@ import koans.util.errorMessage
 class TestPartition {
     @Test fun testGetCustomersWhoHaveMoreUndeliveredOrdersThanDelivered() {
         Assert.assertTrue(errorMessage("getCustomerWithMaximumNumberOfOrders"),
-                setOf(customers[reka]) == shop.getCustomersWithMoreUndeliveredOrdersThanDelivered())
+                setOf(customers[reka]) == shop.getCustomersWithMoreUndeliveredOrders())
     }
 }

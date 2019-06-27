@@ -1,15 +1,20 @@
-// Return the most expensive product among all delivered products
-// (use the Order.isDelivered flag)
-fun Customer.getMostExpensiveDeliveredProduct(): Product? {
-    return orders.filter { it.isDelivered }.flatMap { it.products }.maxBy { it.price }
+// Return the most expensive product among all delivered products.
+// Check Order.isDelivered flag.
+fun findMostExpensiveProductBy(customer: Customer): Product? {
+    return customer
+            .orders
+            .filter(Order::isDelivered)
+            .flatMap(Order::products)
+            .maxBy(Product::price)
 }
 
-// Return how many times the given product was ordered.
-// Note: a customer may order the same product for several times.
+// Count the amount of times the given product was ordered.
+// Note that a customer may order the same product for several times.
 fun Shop.getNumberOfTimesProductWasOrdered(product: Product): Int {
-    return customers.flatMap { it.getOrderedProductsList() }.count { it == product }
+    return customers
+            .flatMap(Customer::getOrderedProducts)
+            .count { it == product }
 }
 
-fun Customer.getOrderedProductsList(): List<Product> {
-    return orders.flatMap { it.products }
-}
+fun Customer.getOrderedProducts(): List<Product> =
+        orders.flatMap(Order::products)

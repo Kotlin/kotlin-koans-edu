@@ -1,2 +1,3 @@
-// Return a list of customers, sorted by the ascending number of orders they made
-fun Shop.getCustomersSortedByNumberOfOrders(): List<Customer> = customers.sortedBy { it.orders.size }
+// Return a list of customers, sorted in the descending by number of orders they made
+fun Shop.getCustomersSortedByOrders(): List<Customer> =
+        customers.sortedByDescending { it.orders.size }

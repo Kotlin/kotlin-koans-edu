@@ -22,6 +22,6 @@ class TestExtensionsOnCollections {
         Assert.assertEquals(
                 "Wrong result for 'doSomethingStrangeWithCollection()' call on " +
                         "${argument.joinToString(prefix = "[", postfix = "]") { "\"$it\"" }}:\n",
-                expected, doSomethingStrangeWithCollection(argument))
+                expected, doSomethingWithCollection(argument))
     }
 }

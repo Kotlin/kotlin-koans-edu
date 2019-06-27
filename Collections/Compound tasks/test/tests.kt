@@ -11,7 +11,7 @@ class K_Compound_Tasks {
                         order(reSharper)
                 )
         )
-        Assert.assertTrue(errorMessage("getMostExpensiveDeliveredProduct"), reSharper == testShop.customers[0].getMostExpensiveDeliveredProduct())
+        Assert.assertTrue(errorMessage("getMostExpensiveDeliveredProduct"), reSharper == findMostExpensiveProductBy(testShop.customers[0]))
     }
 
     @Test fun testNumberOfTimesEachProductWasOrdered() {

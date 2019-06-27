@@ -53,11 +53,9 @@ val shop = shop("jb test shop",
         )
 )
 
-val customers: Map<String, Customer> = shop.customers.map { Pair(it.name, it) }.toMap()
+val customers: Map<String, Customer> = shop.customers.associate { it.name to it }
 
 val orderedProducts = setOf(idea, reSharper, dotTrace, dotMemory, rubyMine, webStorm)
-
-val sortedCustomers = listOf(cooper, nathan, bajram, asuka, lucas, reka).map { customers[it] }
 
 val groupedByCities = mapOf(
         Canberra to listOf(lucas, cooper),

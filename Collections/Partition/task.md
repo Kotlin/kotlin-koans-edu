@@ -1,5 +1,9 @@
 ## Partition
-Implement `Shop.getCustomersWithMoreUndeliveredOrdersThanDelivered()` using
+
+Read about [partitioning](https://kotlinlang.org/docs/reference/collection-filtering.html#partitioning).
+
+Implement the function returning customers who have more undelivered orders
+than delivered using
 [`partition`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/partition.html).
 
 ```kotlin
@@ -9,4 +13,5 @@ positive == listOf(1, 3, 2)
 negative == listOf(-4, -11)
 ```
 
-Note that [destructuring declaration](http://kotlinlang.org/docs/reference/multi-declarations.html) syntax is used in this example.
+Read about [destructuring declaration](http://kotlinlang.org/docs/reference/multi-declarations.html)
+syntax that is often used together with `partition`.

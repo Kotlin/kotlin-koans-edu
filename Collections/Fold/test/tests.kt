@@ -15,6 +15,6 @@ class TestFold {
                 )
         )
         Assert.assertTrue(errorMessage("getSetOfProductsOrderedByEveryCustomer"),
-                setOf(idea) == testShop.getSetOfProductsOrderedByEveryCustomer())
+                setOf(idea) == testShop.getProductsOrderedByAll())
     }
 }
