@@ -15,7 +15,7 @@ might be helpful.
 
 ```kotlin
 listOf(1, 42, 4).max() == 42
-listOf("a", "ab").minBy { it.length } == "a"
+listOf("a", "ab").minBy(String::length) == "a"
 ```
 
 You can use [callable references](https://kotlinlang.org/docs/reference/lambdas.html#instantiating-a-function-type)

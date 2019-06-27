@@ -12,5 +12,5 @@ If you want to sum up the double values, use
 
 ```kotlin
 listOf(1, 5, 3).sum() == 9
-listOf("a", "b", "cc").sumBy { it.length() } == 4
+listOf("a", "b", "cc").sumBy { it.length } == 4
 ```

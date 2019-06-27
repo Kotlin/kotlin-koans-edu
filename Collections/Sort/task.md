@@ -13,6 +13,16 @@ Use
 [`sortedByDescending`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/sorted-by-descending.html).
 
 ```kotlin
-listOf("bbb", "a", "cc").sorted() == listOf("a", "bbb", "cc")
-listOf("bbb", "a", "cc").sortedBy { it.length } == listOf("a", "cc", "bbb")
+val strings = listOf("bbb", "a", "cc")
+strings.sorted() ==
+        listOf("a", "bbb", "cc")
+
+strings.sortedBy { it.length } ==
+        listOf("a", "cc", "bbb")
+
+strings.sortedDescending() ==
+        listOf("cc", "bbb", "a")
+
+strings.sortedByDescending { it.length } ==
+        listOf("bbb", "cc", "a")
 ```
