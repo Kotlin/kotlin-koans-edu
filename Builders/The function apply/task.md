@@ -1,5 +1,8 @@
 ## The function apply
 
 The previous examples can be rewritten using the library function
-[`apply`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/apply.html) (see examples below).
+[`apply`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/apply.html).
 Write your own implementation of this function named 'myApply'.
+
+Read about other [scope functions](https://kotlinlang.org/docs/reference/scope-functions.html)
+and how to use them.
