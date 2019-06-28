@@ -1,6 +1,6 @@
 ## Default arguments
 
-There are several overloads of 'foo()' in Java:
+Imagine, you have several overloads of 'foo()' in Java:
 
 ```java
 public String foo(String name, int number, boolean toUpperCase) {
@@ -17,6 +17,6 @@ public String foo(String name) {
 }
 ```
 
-All these Java overloads can be replaced with one function in Kotlin.
-Change the declaration of the function `foo` in a way that makes the code using `foo` compile.
+You can replace all these Java overloads with one function in Kotlin.
+Change the declaration of the `foo` function in a way that makes the code using `foo` compile.
 Use [default and named](http://kotlinlang.org/docs/reference/functions.html#default-arguments) arguments.

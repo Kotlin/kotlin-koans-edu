@@ -3,8 +3,8 @@ content:
 - Java to Kotlin conversion
 - Named arguments
 - Default arguments
-- Strings
 - Triple-quoted strings
+- String templates
 - Nullable types
 - Nothing type
 - Lambdas

@@ -3,7 +3,7 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 142
+  - offset: 162
     length: 16
     placeholder_text: .trimIndent()
 - name: test/Tests.kt

@@ -4,6 +4,7 @@ import org.junit.Assert
 class TestDefaultAndNamedParams() {
 
     @Test fun testDefaultAndNamedParams() {
-        Assert.assertEquals(listOf("a42", "b1", "C42", "D2"), useFoo())
+        Assert.assertEquals("'useFoo()' returns wrong result\n",
+                listOf("a42", "b1", "C42", "D2"), useFoo())
     }
 }
