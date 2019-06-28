@@ -1,5 +1,6 @@
 content:
 - Data classes
 - Smart casts
-- Extension functions
+- Sealed classes
 - Rename on import
+- Extension functions
