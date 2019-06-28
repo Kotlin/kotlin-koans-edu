@@ -5,10 +5,6 @@ content:
 - Default arguments
 - Strings
 - Triple-quoted strings
-- Data classes
 - Nullable types
-- Smart casts
-- Extension functions
-- Lambdas
-- Rename on import
 - Nothing type
+- Lambdas
