@@ -1,9 +1,9 @@
 import org.junit.Assert
 import org.junit.Test
 
-class TestInRange {
+class TestRangeTo {
     fun doTest(date: MyDate, first: MyDate, last: MyDate, shouldBeInRange: Boolean) {
-        val message = "$date should${if (shouldBeInRange) "" else "n't"} be in ${DateRange(first, last)}:\n"
+        val message = "$date should${if (shouldBeInRange) "" else "n't"} be in range: $first..$last:\n"
         Assert.assertEquals(message, shouldBeInRange, checkInRange(date, first, last))
     }
 
