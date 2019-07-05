@@ -1,8 +1,9 @@
 ## String templates
 
 Triple-quoted strings are useful not only for multi-line strings, but also
-for creating regex patterns, you don't need to escape a backslash by a backslash.
-Below there is a pattern that matches a date in format `13.06.1992`
+for creating regex patterns. You don't need to escape a backslash by a backslash.
+
+The following pattern matches a date in format `13.06.1992`
 (two digits, a dot, two digits, a dot, four digits):
 
 ```kotlin

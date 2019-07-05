@@ -9,8 +9,7 @@ class TestProperties {
         q.propertyWithCounter = 32
         Assert.assertTrue("The property 'changeCounter' should contain the number of assignments to 'propertyWithCounter'",
                 3 == q.counter)
-        // Here we have to use !! due to false smart cast impossible
-        Assert.assertTrue("The property 'propertyWithCounter' should be set", 32 == q.propertyWithCounter!!)
+        Assert.assertTrue("The property 'propertyWithCounter' should be set", 32 == q.propertyWithCounter)
     }
 
 }

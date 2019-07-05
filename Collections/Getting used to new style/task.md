@@ -1,9 +1,12 @@
 ## Getting used to new style
 
-Rewrite and simplify the following function using lambdas and operations on collections.
+We can rewrite and simplify the following code using lambdas and operations on collections.
+Fill in the gaps in `doSomethingWithCollection`, 
+the simplified version of the `doSomethingWithCollectionOldStyle` function, 
+so that its behaviour wasn't modified.
 
 ```kotlin
-fun doSomethingWithCollection(
+fun doSomethingWithCollectionOldStyle(
     collection: Collection<String>
 ): Collection<String>? {
     val groupsByLength = mutableMapOf<Int, MutableList<String>>()

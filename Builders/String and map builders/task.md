@@ -1,6 +1,6 @@
 ## String and map builders
 
-Extension function literals are very useful for creating builders, for example:
+Function literals with receiver are very useful for creating builders, for example:
 
 ```kotlin
 fun buildString(build: StringBuilder.() -> Unit): String {
@@ -20,5 +20,5 @@ val s = buildString {
 s == "Numbers: 123"
 ```
 
-Add and implement the function 'buildMap' with one parameter (of type extension function) creating a new `HashMap`,
+Implement the function 'buildMap' that should take one parameter (of extension function type) creating a new `HashMap`,
 building it and returning it as a result.

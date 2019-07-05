@@ -1,4 +1,4 @@
-## Extension function literals
+## Function literals with receiver
 
 Read about [function literals with receiver](https://kotlinlang.org/docs/reference/lambdas.html#function-literals-with-receiver).
 
