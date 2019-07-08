@@ -3,7 +3,8 @@ import org.junit.Test
 import koans.util.errorMessage
 
 class TestPartition {
-    @Test fun testGetCustomersWhoHaveMoreUndeliveredOrdersThanDelivered() {
+    @Test
+    fun testGetCustomersWhoHaveMoreUndeliveredOrdersThanDelivered() {
         Assert.assertTrue(errorMessage("getCustomersWithMoreUndeliveredOrders"),
                 setOf(customers[reka]) == shop.getCustomersWithMoreUndeliveredOrders())
     }

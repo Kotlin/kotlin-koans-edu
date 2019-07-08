@@ -4,11 +4,11 @@ files:
   visible: true
   placeholders:
   - offset: 120
-    length: 215
+    length: 207
     placeholder_text: TODO()
-  - offset: 398
+  - offset: 390
     length: 31
-    placeholder_text: '    '
+    placeholder_text: TODO()
 - name: src/Shop.kt
   visible: true
 - name: test/tests.kt

@@ -2,7 +2,8 @@ import org.junit.Assert
 import org.junit.Test
 
 class TestDelegatesHowItWorks {
-    @Test fun testDate() {
+    @Test
+    fun testDate() {
         val d = D()
         d.date = MyDate(2014, 1, 13)
         val message = "The methods 'getValue' and 'setValue' are implemented incorrectly"

@@ -2,7 +2,8 @@ import org.junit.Assert
 import org.junit.Test
 
 class TestStringAndMapBuilders {
-    @Test fun testBuildMap() {
+    @Test
+    fun testBuildMap() {
         val expected = hashMapOf<Int, String>()
         for (i in 0..10) {
             expected[i] = "$i"

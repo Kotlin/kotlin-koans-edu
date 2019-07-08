@@ -3,7 +3,8 @@ import org.junit.Test
 import koans.util.errorMessage
 
 class TestGroupBy {
-    @Test fun testGroupCustomersByCity() {
+    @Test
+    fun testGroupCustomersByCity() {
         Assert.assertTrue(errorMessage("groupCustomersByCity"),
                 groupedByCities == shop.groupCustomersByCity())
     }

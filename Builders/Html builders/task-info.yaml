@@ -5,11 +5,11 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 84
+  - offset: 83
     length: 25
     placeholder_text: /* TODO */
   - offset: 404
-    length: 484
+    length: 481
     placeholder_text: TODO()
 - name: src/data.kt
   visible: true

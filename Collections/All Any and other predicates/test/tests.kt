@@ -4,19 +4,23 @@ import koans.util.errorMessage
 
 class TestAllAnyAndOtherPredicates {
 
-    @Test fun testAllCustomersAreFromCity() {
+    @Test
+    fun testAllCustomersAreFromCity() {
         Assert.assertFalse(errorMessage("checkAllCustomersAreFrom"), shop.checkAllCustomersAreFrom(Canberra))
     }
 
-    @Test fun testAnyCustomerIsFromCity() {
+    @Test
+    fun testAnyCustomerIsFromCity() {
         Assert.assertTrue(errorMessage("hasCustomerFrom"), shop.hasCustomerFrom(Canberra))
     }
 
-    @Test fun testCountCustomersFromCity() {
+    @Test
+    fun testCountCustomersFromCity() {
         Assert.assertTrue(errorMessage("countCustomersFrom"), 2 == shop.countCustomersFrom(Canberra))
     }
 
-    @Test fun testAnyCustomerFromCity() {
+    @Test
+    fun testAnyCustomerFromCity() {
         Assert.assertTrue(errorMessage("findCustomerFrom"), customers[lucas] == shop.findCustomerFrom(Canberra))
     }
 }

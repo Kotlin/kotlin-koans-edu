@@ -2,19 +2,23 @@ import org.junit.Test
 import org.junit.Assert
 
 class TestExtensionsOnCollections {
-    @Test fun testCollectionOfOneElement() {
+    @Test
+    fun testCollectionOfOneElement() {
         doTest(listOf("a"), listOf("a"))
     }
 
-    @Test fun testSimpleCollection() {
+    @Test
+    fun testSimpleCollection() {
         doTest(listOf("a", "c"), listOf("a", "bb", "c"))
     }
 
-    @Test fun testCollectionWithEmptyStrings() {
+    @Test
+    fun testCollectionWithEmptyStrings() {
         doTest(listOf("", "", "", ""), listOf("", "", "", "", "a", "bb", "ccc", "dddd"))
     }
 
-    @Test fun testCollectionWithTwoGroupsOfMaximalSize() {
+    @Test
+    fun testCollectionWithTwoGroupsOfMaximalSize() {
         doTest(listOf("a", "c"), listOf("a", "bb", "c", "dd"))
     }
 

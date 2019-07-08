@@ -4,7 +4,8 @@ import org.junit.Assert
 
 class TestNamedArguments {
 
-    @Test fun testJoinToString() {
+    @Test
+    fun testJoinToString() {
         Assert.assertEquals(errorMessage("joinOptions"), "[yes, no, may be]", joinOptions(listOf("yes", "no", "may be")))
     }
 
