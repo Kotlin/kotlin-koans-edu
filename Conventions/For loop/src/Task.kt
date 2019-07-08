@@ -1,12 +1,15 @@
-class DateRange(val start: MyDate, val end: MyDate): Iterable<MyDate>{
+class DateRange(val start: MyDate, val end: MyDate) : Iterable<MyDate> {
     override fun iterator(): Iterator<MyDate> {
         return object : Iterator<MyDate> {
             var current: MyDate = start
+
             override fun next(): MyDate {
+                if (!hasNext()) throw NoSuchElementException()
                 val result = current
                 current = current.nextDay()
                 return result
             }
+
             override fun hasNext(): Boolean = current <= end
         }
     }

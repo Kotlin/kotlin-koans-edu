@@ -1,5 +1,8 @@
 ## Named arguments
 
+Make the function `joinOptions()` return the list in a JSON format (e.g., "[a, b, c]")
+by specifying only two arguments. 
+
 [Default and named](http://kotlinlang.org/docs/reference/functions.html#default-arguments)
 arguments help to minimize the number of overloads and improve the readability of the function invocation.
 The library function [`joinToString`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/join-to-string.html)
@@ -15,4 +18,3 @@ fun joinToString(
 ```
 
 It can be called on a collection of Strings.
-Specifying only two arguments make the function `joinOptions()` return the list in a JSON format (e.g., "[a, b, c]")

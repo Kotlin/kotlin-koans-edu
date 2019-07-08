@@ -6,7 +6,7 @@ class TestAssociate {
     @Test fun testAssociateBy() {
         val expected = customers.values.associateBy { it.name }
         val actual = shop.nameToCustomerMap()
-        Assert.assertTrue(errorMessage("customerToCityMap"),
+        Assert.assertTrue(errorMessage("nameToCustomerMap"),
                 expected == actual)
     }
 
@@ -20,7 +20,7 @@ class TestAssociate {
     @Test fun testAssociate() {
         val expected = customers.values.associate { it.name to it.city }
         val actual = shop.customerNameToCityMap()
-        Assert.assertTrue(errorMessage("customerToCityMap"),
+        Assert.assertTrue(errorMessage("customerNameToCityMap"),
                 expected == actual)
     }
 }

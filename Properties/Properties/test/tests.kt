@@ -7,9 +7,9 @@ class TestProperties {
         q.propertyWithCounter = 14
         q.propertyWithCounter = 21
         q.propertyWithCounter = 32
-        Assert.assertTrue("The property 'changeCounter' should contain the number of assignments to 'propertyWithCounter'",
+        Assert.assertTrue("The property 'counter' should contain the number of assignments to 'propertyWithCounter'",
                 3 == q.counter)
-        Assert.assertTrue("The property 'propertyWithCounter' should be set", 32 == q.propertyWithCounter)
+        Assert.assertTrue("The property 'propertyWithCounter' should store the value assigned to it", 32 == q.propertyWithCounter)
     }
 
 }

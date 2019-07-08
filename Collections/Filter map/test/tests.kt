@@ -4,7 +4,7 @@ import koans.util.errorMessage
 
 class TestFilterMap {
     @Test fun testCitiesCustomersAreFrom() {
-        Assert.assertTrue(errorMessage("getCitiesCustomersAreFrom"),
+        Assert.assertTrue(errorMessage("getCustomerCities"),
                 setOf(Canberra, Vancouver, Budapest, Ankara, Tokyo) == shop.getCustomerCities())
     }
 

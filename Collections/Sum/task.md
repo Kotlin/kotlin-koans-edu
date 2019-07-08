@@ -1,8 +1,8 @@
 ## Sum
 
-Implement the function that calculates the sum of prices of all products
-that the given customer has ordered.
-Note that the customer may order the same product for several times.
+Implement the function that calculates the amount of money the customer has spent:
+the sum of prices for all the ordered products by the given customer. 
+Note that each product should be counted as many times as it was ordered.
 
 Use
 [`sum`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/sum.html) or

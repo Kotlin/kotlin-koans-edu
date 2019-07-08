@@ -5,7 +5,7 @@ import koans.util.errorMessage
 class TestSort {
     @Test
     fun testGetCustomersSortedByNumberOfOrders() {
-        val errorMessage = errorMessage("getCustomersSortedByNumberOfOrders")
+        val errorMessage = errorMessage("getCustomersSortedByOrders")
         val actual = shop.getCustomersSortedByOrders()
         Assert.assertTrue(errorMessage, 6 == actual.size)
         Assert.assertTrue(errorMessage, customers[reka] == actual[0])

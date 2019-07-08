@@ -53,7 +53,7 @@ val shop = shop("jb test shop",
         )
 )
 
-val customers: Map<String, Customer> = shop.customers.associate { it.name to it }
+val customers: Map<String, Customer> = shop.customers.associateBy { it.name }
 
 val orderedProducts = setOf(idea, reSharper, dotTrace, dotMemory, rubyMine, webStorm)
 

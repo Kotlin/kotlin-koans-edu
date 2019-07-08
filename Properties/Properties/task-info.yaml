@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 95
-    length: 68
+    length: 62
     placeholder_text: set
 - name: test/tests.kt
   visible: false

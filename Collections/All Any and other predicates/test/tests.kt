@@ -17,6 +17,6 @@ class TestAllAnyAndOtherPredicates {
     }
 
     @Test fun testAnyCustomerFromCity() {
-        Assert.assertTrue(errorMessage("findAnyCustomerFrom"), customers[lucas] == shop.findCustomerFrom(Canberra))
+        Assert.assertTrue(errorMessage("findCustomerFrom"), customers[lucas] == shop.findCustomerFrom(Canberra))
     }
 }

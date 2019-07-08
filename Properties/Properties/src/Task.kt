@@ -1,7 +1,7 @@
 class PropertyExample() {
     var counter = 0
     var propertyWithCounter: Int? = null
-        set(v: Int?) {
+        set(v) {
             field = v
             counter++
         }

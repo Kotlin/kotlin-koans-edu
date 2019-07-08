@@ -1,4 +1,3 @@
-// Return the sum of prices of all products that the given customer has ordered.
-// Note that the customer may order the same product for several times.
+// Return the sum of prices for all the ordered products by the given customer
 fun moneySpentBy(customer: Customer): Double =
         customer.orders.flatMap { it.products }.sumByDouble { it.price }
