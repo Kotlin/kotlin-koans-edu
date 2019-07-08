@@ -1,6 +1,6 @@
 [![official JetBrains project](https://jb.gg/badges/official-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
-# kotlin-koans
+# kotlin-koans-edu
 
 Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
 Each exercise is created as a failing unit test and your job is to make it pass.
