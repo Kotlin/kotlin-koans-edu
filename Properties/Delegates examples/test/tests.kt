@@ -2,7 +2,7 @@ import org.junit.Assert
 import org.junit.Test
 
 class TestDelegatesExamples {
-    @Test
+    @Test(timeout = 1000)
     fun testLazy() {
         var initialized = false
         val lazyProperty = LazyProperty { initialized = true; 42 }
@@ -12,7 +12,7 @@ class TestDelegatesExamples {
         Assert.assertTrue("Property should be initialized after access", 42 == result)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun initializedOnce() {
         var initialized = 0
         val lazyProperty = LazyProperty { initialized++; 42 }

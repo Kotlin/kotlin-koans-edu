@@ -2,7 +2,7 @@ import org.junit.Assert
 import org.junit.Test
 
 class TestProperties {
-    @Test
+    @Test(timeout = 1000)
     fun testPropertyWithCounter() {
         val q = PropertyExample()
         q.propertyWithCounter = 14

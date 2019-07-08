@@ -2,7 +2,7 @@ import org.junit.Assert
 import org.junit.Test
 
 class HtmlDslTest {
-    @Test
+    @Test(timeout = 1000)
     fun testSample() {
         Assert.assertEquals(
                 "Wrong result for createTable()",
@@ -10,7 +10,7 @@ class HtmlDslTest {
                 createTable().toString())
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun testTable1() {
         Assert.assertEquals(
                 "Wrong result for 'table { tr { td {} } }'",
@@ -19,7 +19,7 @@ class HtmlDslTest {
         )
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun testTable2() {
         Assert.assertEquals(
                 "Wrong result for 'repeat(3) { tr { td {} } }'",

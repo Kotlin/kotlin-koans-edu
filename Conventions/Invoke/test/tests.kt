@@ -2,7 +2,7 @@ import org.junit.Assert
 import org.junit.Test
 
 class TestInvoke {
-    @Test
+    @Test(timeout = 1000)
     fun testInvokeTwice() = testInvokable(2, ::invokeTwice)
 
     private fun testInvokable(numberOfInvocations: Int, invokeSeveralTimes: (Invokable) -> Invokable) {
@@ -11,7 +11,7 @@ class TestInvoke {
         Assert.assertEquals(message, numberOfInvocations, invokeSeveralTimes(invokable).numberOfInvocations)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun testNumberOfInvocations() {
         testInvokable(1) { it() }
         testInvokable(5) { it()()()()() }

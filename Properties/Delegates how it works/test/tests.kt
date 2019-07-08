@@ -2,7 +2,7 @@ import org.junit.Assert
 import org.junit.Test
 
 class TestDelegatesHowItWorks {
-    @Test
+    @Test(timeout = 1000)
     fun testDate() {
         val d = D()
         d.date = MyDate(2014, 1, 13)

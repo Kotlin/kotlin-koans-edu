@@ -2,7 +2,7 @@ import org.junit.Assert
 import org.junit.Test
 
 class Test {
-    @Test
+    @Test(timeout = 1000)
     fun testRandom() {
         val string = useDifferentRandomClasses()
         Assert.assertTrue(

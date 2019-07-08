@@ -2,7 +2,7 @@ import org.junit.Assert
 import org.junit.Test
 
 class TestStringAndMapBuilders {
-    @Test
+    @Test(timeout = 1000)
     fun testBuildMap() {
         val expected = hashMapOf<Int, String>()
         for (i in 0..10) {

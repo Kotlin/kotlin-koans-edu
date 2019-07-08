@@ -3,7 +3,7 @@ import org.junit.Test
 import koans.util.errorMessage
 
 class TestSort {
-    @Test
+    @Test(timeout = 1000)
     fun testGetCustomersSortedByNumberOfOrders() {
         val errorMessage = errorMessage("getCustomersSortedByOrders")
         val actual = shop.getCustomersSortedByOrders()

@@ -7,17 +7,17 @@ class TestRangeTo {
         Assert.assertEquals(message, shouldBeInRange, checkInRange(date, first, last))
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun testInRange() {
         doTest(MyDate(2014, 3, 22), MyDate(2014, 1, 1), MyDate(2015, 1, 1), shouldBeInRange = true)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun testBefore() {
         doTest(MyDate(2013, 3, 22), MyDate(2014, 1, 1), MyDate(2015, 1, 1), shouldBeInRange = false)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun testAfter() {
         doTest(MyDate(2015, 3, 22), MyDate(2014, 1, 1), MyDate(2015, 1, 1), shouldBeInRange = false)
     }

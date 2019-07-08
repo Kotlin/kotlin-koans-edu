@@ -4,7 +4,7 @@ import org.junit.Test
 import java.util.*
 
 class TestGenericFunctions {
-    @Test
+    @Test(timeout = 1000)
     fun testPartitionWordsAndLines() {
         partitionWordsAndLines()
 
@@ -13,7 +13,7 @@ class TestGenericFunctions {
         Assert.assertEquals(errorMessage("partitionTo"), listOf("a b", "d e"), lines)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun testPartitionLettersAndOtherSymbols() {
         partitionLettersAndOtherSymbols()
 

@@ -13,9 +13,9 @@ class Test {
                 "Expected IllegalArgumentException for 'checkAge($age)'", e)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun testNegative() = testAge(-10)
 
-    @Test
+    @Test(timeout = 1000)
     fun testLargeNumber() = testAge(200)
 }

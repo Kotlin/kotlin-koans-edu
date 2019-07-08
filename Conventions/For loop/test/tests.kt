@@ -2,7 +2,7 @@ import org.junit.Assert
 import org.junit.Test
 
 class TestForLoop {
-    @Test
+    @Test(timeout = 1000)
     fun testIterateOverDateRange() {
         val actualDateRange = arrayListOf<MyDate>()
         iterateOverDateRange(MyDate(2016, 5, 1), MyDate(2016, 5, 5)) { date ->
@@ -14,7 +14,7 @@ class TestForLoop {
                 expectedDateRange, actualDateRange)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun testIterateOverEmptyRange() {
         var invoked = false
         iterateOverDateRange(MyDate(2016, 1, 1), MyDate(2015, 1, 1), { invoked = true })

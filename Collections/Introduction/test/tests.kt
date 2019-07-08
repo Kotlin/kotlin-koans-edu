@@ -3,7 +3,7 @@ import org.junit.Test
 import koans.util.errorMessage
 
 class TestIntroduction {
-    @Test
+    @Test(timeout = 1000)
     fun testSetOfCustomers() {
         Assert.assertTrue(errorMessage("getSetOfCustomers"),
                 shop.getSetOfCustomers() == customers.values.toSet())

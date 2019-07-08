@@ -23,7 +23,7 @@ class TestNullableTypes {
                 shouldBeInvoked, invoked)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun everythingIsOk() {
         testSendMessageToClient(Client(PersonalInfo("bob@gmail.com")),
                 "Hi Bob! We have an awesome proposition for you...",
@@ -31,22 +31,22 @@ class TestNullableTypes {
                 true)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun noMessage() {
         testSendMessageToClient(Client(PersonalInfo("bob@gmail.com")), null)
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun noEmail() {
         testSendMessageToClient(Client(PersonalInfo(null)), "Hi Bob! We have an awesome proposition for you...")
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun noPersonalInfo() {
         testSendMessageToClient(Client(null), "Hi Bob! We have an awesome proposition for you...")
     }
 
-    @Test
+    @Test(timeout = 1000)
     fun noClient() {
         testSendMessageToClient(null, "Hi Bob! We have an awesome proposition for you...")
     }
