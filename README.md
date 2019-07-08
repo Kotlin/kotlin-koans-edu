@@ -13,4 +13,4 @@ You can work with Kotlin Koans in one of the following ways:
 and [choosing Kotlin Koans course](https://www.jetbrains.com/help/education/learner-start-guide.html?section=Kotlin%20Koans).
 
 You don't need this project if you want to solve the tasks. Install the educational plugin or do it online.
-This project contains the task content, so if you want to contribute any changes or new tasks, please add new pull requests.
+This project contains the task content, so if you want to contribute any changes to the existing tasks or new tasks, please submit new pull request.
