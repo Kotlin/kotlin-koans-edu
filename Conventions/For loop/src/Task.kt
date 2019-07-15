@@ -6,7 +6,7 @@ class DateRange(val start: MyDate, val end: MyDate) : Iterable<MyDate> {
             override fun next(): MyDate {
                 if (!hasNext()) throw NoSuchElementException()
                 val result = current
-                current = current.nextDay()
+                current = current.followingDate()
                 return result
             }
 
