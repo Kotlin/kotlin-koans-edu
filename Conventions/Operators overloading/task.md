@@ -1,9 +1,9 @@
 ## Operators overloading
 
-Implement a kind of date arithmetic. Support adding years, weeks and days to a date.
-You could be able to write the code like this: `date + YEAR * 2 + WEEK * 3 + DAY * 15`.
+Implement date arithmetic. Support adding years, weeks, and days to a date.
+You could write the code like this: `date + YEAR * 2 + WEEK * 3 + DAY * 15`.
 
-At first, add an extension function `plus()` to `MyDate`, taking a `TimeInterval` as an argument.
+At first, add the extension function `plus()` to `MyDate`, taking the `TimeInterval` as an argument.
 Use the utility function `MyDate.addTimeIntervals()` declared in
 `DateUtil.kt`
 
