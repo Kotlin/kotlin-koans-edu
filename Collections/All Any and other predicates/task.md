@@ -9,9 +9,9 @@ Implement the following functions using
 [`count`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/count.html),
 [`find`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/find.html):
 - `checkAllCustomersAreFrom` should return true if all customers are from a given city
-- `hasCustomerFrom` should check if there is at least one customer from a given city
+- `hasCustomerFrom` should check if there is at least one customer from the given city
 - `countCustomersFrom` should return the number of customers from a given city
-- `findCustomerFrom` should return a customer who lives in a given city, or `null` if there is none
+- `findCustomerFrom` should return a customer who lives in the given city, or `null` if there is none
 
 ```kotlin
 val numbers = listOf(-1, 0, 2)
