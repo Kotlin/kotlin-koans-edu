@@ -1,8 +1,8 @@
 ## Nullable types
 
-Read about
+Learn about
 [null safety and safe calls](http://kotlinlang.org/docs/reference/null-safety.html)
-in Kotlin and rewrite the following Java code using only one `if` expression:
+in Kotlin and rewrite the following Java code so that it only has one `if` expression:
 
 ```java
 public void sendMessageToClient(
