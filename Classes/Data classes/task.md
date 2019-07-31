@@ -1,9 +1,9 @@
 ## Data classes
 
-Read about [classes](http://kotlinlang.org/docs/reference/classes.html),
+Learn about [classes](http://kotlinlang.org/docs/reference/classes.html),
 [properties](http://kotlinlang.org/docs/reference/properties.html)
 and [data classes](https://kotlinlang.org/docs/reference/data-classes.html)
-and rewrite the following Java code to Kotlin:
+and then rewrite the following Java code to Kotlin:
 
 ```java
 public class Person {
@@ -25,5 +25,5 @@ public class Person {
 }
 ```
 
-Then add the `data` modifier to the resulting class.
-That will make the compiler generate a bunch of useful methods for this class: `equals`/`hashCode`, `toString` and some others.
+Afterwards add the `data` modifier to the resulting class.
+This will make the compiler generate a few useful methods for this class: `equals`/`hashCode`, `toString` and some others.
