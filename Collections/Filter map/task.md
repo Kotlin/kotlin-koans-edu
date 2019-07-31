@@ -8,8 +8,8 @@ using the
 [`map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/map.html) and
 [`filter`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/filter.html) 
 functions:
-- Find all the different cities the customers are from
-- Find the customers living in a given city 
+- Find all the different cities the customers are from.
+- Find the customers living in a given city.
 
 ```kotlin
 val numbers = listOf(1, -1, 2)
