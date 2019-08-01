@@ -1,6 +1,6 @@
 ## HTML builder
 
-_1._ Fill the table with the proper values from the product list.
+_1._ Fill the table with proper values from the product list.
 The products are declared in `data.kt`.
 
 _2._ Color the table like a chess board.
