@@ -1,6 +1,6 @@
-## Builders: how it works
+## Builders: how they work
 
-Look at the questions below and give your answers
+Answer the questions below
 
 **1. In the Kotlin code**
 
@@ -17,11 +17,11 @@ tr {
 
 **'td' is:**
 
-a. special built-in syntactic construct
+a. a special built-in syntactic construct
 
-b. function declaration
+b. a function declaration
 
-c. function invocation
+c. a function invocation
 
 ***
 
@@ -40,11 +40,11 @@ tr (color = "yellow") {
 
 **'color' is:**
 
-a. new variable declaration
+a. a new variable declaration
 
-b. argument name
+b. an argument name
 
-c. argument value
+c. an argument value
 
 ***
 
@@ -58,9 +58,9 @@ c. argument value
 
 **from the previous question is:**
 
-a. block inside built-in syntax construction `td`
+a. a block inside built-in syntax construction `td`
 
-b. function literal (or "lambda")
+b. a function literal (or "lambda")
 
 c. something mysterious
 
