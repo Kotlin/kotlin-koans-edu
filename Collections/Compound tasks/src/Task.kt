@@ -1,5 +1,5 @@
-// Return the most expensive product among all delivered products.
-// Check Order.isDelivered flag.
+// Find the most expensive product among all the delivered products
+// ordered by the customer. Use `Order.isDelivered` flag.
 fun findMostExpensiveProductBy(customer: Customer): Product? {
     return customer
             .orders
@@ -8,8 +8,8 @@ fun findMostExpensiveProductBy(customer: Customer): Product? {
             .maxBy(Product::price)
 }
 
-// Count the amount of times the given product was ordered.
-// Note that a customer may order the same product for several times.
+// Count the amount of times a product was ordered.
+// Note that a customer may order the same product several times.
 fun Shop.getNumberOfTimesProductWasOrdered(product: Product): Int {
     return customers
             .flatMap(Customer::getOrderedProducts)
