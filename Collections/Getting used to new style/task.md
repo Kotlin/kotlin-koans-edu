@@ -3,7 +3,7 @@
 We can rewrite and simplify the following code using lambdas and operations on collections.
 Fill in the gaps in `doSomethingWithCollection`, 
 the simplified version of the `doSomethingWithCollectionOldStyle` function, 
-so that its behaviour wasn't modified.
+so that its behavior stays the same and isn't modified in any way.
 
 ```kotlin
 fun doSomethingWithCollectionOldStyle(

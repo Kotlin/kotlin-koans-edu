@@ -20,5 +20,5 @@ val s = buildString {
 s == "Numbers: 123"
 ```
 
-Implement the function 'buildMap' that should take one parameter (of extension function type) creating a new `HashMap`,
-building it and returning it as a result.
+Implement the function 'buildMap' that takes a parameter (of extension function type) creates a new `HashMap`,
+builds it, and returns it as a result.

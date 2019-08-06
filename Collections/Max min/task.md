@@ -1,10 +1,10 @@
-## Max; min
+## Max min
 
-Read about [Collection Aggregate Operations](https://kotlinlang.org/docs/reference/collection-aggregate.html).
+Learn about [Collection Aggregate Operations](https://kotlinlang.org/docs/reference/collection-aggregate.html).
 
 Implement two functions:
-- the first one should return a customer who has placed the maximum amount of orders in this shop 
-- the second one should return the most expensive product that has been ordered by the given customer
+- the first should return the customer who has placed the most amount of orders in this shop 
+- the second should return the most expensive product that has been ordered by the given customer
 
 The functions
 [`max`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/max.html),
@@ -19,6 +19,6 @@ listOf("a", "ab").minBy(String::length) == "a"
 ```
 
 You can use [callable references](https://kotlinlang.org/docs/reference/lambdas.html#instantiating-a-function-type)
-instead of lambdas. That's especially helpful in call chains, when
+instead of lambdas. This can be especially helpful in call chains, where
 `it` occurs in different lambdas and has different types.
-Implement `getMostExpensiveProductBy` function using callable references.  
+Implement the `getMostExpensiveProductBy` function using callable references.  

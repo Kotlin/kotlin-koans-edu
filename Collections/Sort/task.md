@@ -1,13 +1,13 @@
 ## Sort
 
-Read about
+Learn about
 [collection ordering](https://kotlinlang.org/docs/reference/collection-ordering.html)
 and the
 [the difference](https://kotlinlang.org/docs/reference/collection-operations.html#write-operations)
 between operations in-place on mutable collections and operations returning new collections. 
 
-Implement the function returning a list of customers,
-sorted in a descending order by the number of orders they made. 
+Implement a function for returning the list of customers,
+sorted in descending order by the number of orders they have made. 
 Use
 [`sortedDescending`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/sorted-descending.html) or
 [`sortedByDescending`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/sorted-by-descending.html).

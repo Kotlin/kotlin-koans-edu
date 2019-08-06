@@ -1,13 +1,13 @@
 ## Sum
 
-Implement the function that calculates the amount of money the customer has spent:
-the sum of prices for all the ordered products by the given customer. 
+Implement a function that calculates the total amount of money the customer has spent:
+the sum of the prices for all the ordered products by a given customer. 
 Note that each product should be counted as many times as it was ordered.
 
 Use
 [`sum`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/sum.html) or
 [`sumBy`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/sum-by.html).
-If you want to sum up the double values, use
+If you want to sum up double values, use
 [`sumByDouble`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/sum-by-double.html).
 
 ```kotlin
