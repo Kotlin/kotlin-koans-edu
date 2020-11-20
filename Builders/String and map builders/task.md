@@ -20,6 +20,6 @@ val s = buildString {
 s == "Numbers: 123"
 ```
 
-Implement the function 'buildMutableMap' that takes a parameter (of extension function type) creates a new `HashMap`,
+Implement the function `buildMutableMap` that takes a parameter (of extension function type) creates a new `HashMap`,
 builds it, and returns it as a result. Note that starting from 1.3.70, the standard library has a similiar `buildMap`
 function.

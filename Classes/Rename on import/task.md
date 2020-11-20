@@ -8,4 +8,4 @@ from different libraries.
 
 Uncomment the code and make it compile.
 Rename `Random` from the kotlin package to `KRandom`,
-and `Random` from the java package to JRandom.  
+and `Random` from the java package to `JRandom`.  
