@@ -1,6 +1,6 @@
 ## Ranges
 
-Using [ranges](http://kotlinlang.org/docs/reference/ranges.html)
+Using [ranges](https://kotlinlang.org/docs/reference/ranges.html)
 implement a function that checks whether the date is in the range
 between the first date and the last date (inclusive).
 
