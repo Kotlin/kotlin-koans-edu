@@ -6,7 +6,7 @@ syntax that is often used together with `partition`.
 
 Then implement a function for returning customers who have more undelivered orders
 than delivered orders using
-[`partition`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/partition.html).
+[`partition`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/partition.html).
 
 ```kotlin
 val numbers = listOf(1, 3, -4, 2, -11)

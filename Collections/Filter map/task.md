@@ -5,8 +5,8 @@ Learn about [mapping](https://kotlinlang.org/docs/reference/collection-transform
 
 Implement the following extension functions
 using the
-[`map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/map.html) and
-[`filter`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/filter.html) 
+[`map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/map.html) and
+[`filter`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/filter.html) 
 functions:
 - Find all the different cities the customers are from.
 - Find the customers living in a given city.
