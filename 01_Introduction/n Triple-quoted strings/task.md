@@ -12,3 +12,9 @@ in accordance with the surrounding code.
 Replace the `trimIndent` call with the `trimMargin` call
 taking `#` as the prefix value, so that the resulting string doesn't contain
 the prefix character.
+
+Given two constant string prefix & suffix, print a line like this:
+```
+question = "life, the universe, and everything"
+answer = 42
+```

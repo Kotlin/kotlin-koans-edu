@@ -1,6 +1,6 @@
 import java.lang.IllegalArgumentException
 
-fun failWithWrongAge(age: Int?): Nothing {
+fun failWithWrongAge(age: Int?) /*TODO*/ {
     throw IllegalArgumentException("Wrong age: $age")
 }
 

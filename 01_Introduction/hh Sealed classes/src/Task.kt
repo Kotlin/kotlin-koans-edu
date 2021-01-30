@@ -4,6 +4,6 @@ fun eval(expr: Expr): Int =
             is Sum -> eval(expr.left) + eval(expr.right)
         }
 
-sealed class Expr
+/*TODO()*/ class Expr
 class Num(val value: Int) : Expr()
 class Sum(val left: Expr, val right: Expr) : Expr()
