@@ -8,7 +8,7 @@ arguments help to minimize the number of overloads and improve the readability o
 The library function [`joinToString`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/join-to-string.html)
 is declared with default values for parameters:
 
-```
+```kotlin
 fun joinToString(
     separator: String = ", ",
     prefix: String = "",
