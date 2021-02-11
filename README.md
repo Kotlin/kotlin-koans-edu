@@ -1,11 +1,3 @@
-# Quipper kotlin-koans-edu
-
-- Add fixes from the [Kotlin pull request(s)](https://github.com/Kotlin/kotlin-koans-edu/pulls)
-- Rename the folder for easy navigation on IDE (add index)
-- Add missing topics from the [web Koan](https://github.com/quipper/kotlin-koans-edu/commit/ab3156c24657b4d7de5ca806b6f2581c10a03528)
-- Create `answer` branch for easy comparing from inside IDE
-- Remove all the answer on `master` branch
-
 # kotlin-koans-edu
 
 Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
