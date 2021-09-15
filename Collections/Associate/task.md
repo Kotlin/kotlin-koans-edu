@@ -1,6 +1,6 @@
 ## Associate
 
-Learn about [association](https://kotlinlang.org/docs/reference/collection-transformations.html#association).
+Learn about [association](https://kotlinlang.org/docs/reference/collection-transformations.html#associate).
 Implement the following functions using 
 [`associateBy`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/associate-by.html),
 [`associateWith`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/associate-with.html), 
