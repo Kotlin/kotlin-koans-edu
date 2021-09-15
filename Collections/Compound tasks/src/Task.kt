@@ -5,7 +5,7 @@ fun findMostExpensiveProductBy(customer: Customer): Product? {
             .orders
             .filter(Order::isDelivered)
             .flatMap(Order::products)
-            .maxBy(Product::price)
+            .maxByOrNull(Product::price)
 }
 
 // Count the amount of times a product was ordered.

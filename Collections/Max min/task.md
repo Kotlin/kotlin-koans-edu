@@ -7,15 +7,15 @@ Implement two functions:
 - the second should return the most expensive product that has been ordered by the given customer
 
 The functions
-[`max`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/max.html),
-[`min`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/min.html),
-[`maxBy`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/max-by.html), and
-[`minBy`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/min-by.html)
+[`maxOrNull`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/max-or-null.html),
+[`minOrNull`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/min-or-null.html),
+[`maxByOrNull`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/max-by-or-null.html), and
+[`minByOrNull`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/min-by-or-null.html)
 might be helpful.
 
 ```kotlin
-listOf(1, 42, 4).max() == 42
-listOf("a", "ab").minBy(String::length) == "a"
+listOf(1, 42, 4).maxOrNull() == 42
+listOf("a", "ab").minByOrNull(String::length) == "a"
 ```
 
 You can use [callable references](https://kotlinlang.org/docs/reference/lambdas.html#instantiating-a-function-type)
