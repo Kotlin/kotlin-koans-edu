@@ -1,9 +1,9 @@
 ## Sort
 
 Learn about
-[collection ordering](https://kotlinlang.org/docs/reference/collection-ordering.html)
+[collection ordering](https://kotlinlang.org/docs/collection-ordering.html)
 and the
-[the difference](https://kotlinlang.org/docs/reference/collection-operations.html#write-operations)
+[the difference](https://kotlinlang.org/docs/collection-operations.html#write-operations)
 between operations in-place on mutable collections and operations returning new collections. 
 
 Implement a function for returning the list of customers,

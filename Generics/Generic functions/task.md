@@ -1,6 +1,6 @@
 ## Generic functions
 
-Learn about [generic functions](https://kotlinlang.org/docs/reference/generics.html#generic-functions).
+Learn about [generic functions](https://kotlinlang.org/docs/generics.html#generic-functions).
 Make the code compile by implementing a `partitionTo` function that splits
 a collection into two collections according to the predicate.
 

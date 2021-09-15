@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 69
+    length: 67
     placeholder_text: 'fun foo(name: String, number: Int, toUpperCase: Boolean)'
 - name: test/tests.kt
   visible: false

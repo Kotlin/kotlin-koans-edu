@@ -1,6 +1,6 @@
 ## Max min
 
-Learn about [Collection Aggregate Operations](https://kotlinlang.org/docs/reference/collection-aggregate.html).
+Learn about [collection aggregate operations](https://kotlinlang.org/docs/collection-aggregate.html).
 
 Implement two functions:
 - the first should return the customer who has placed the most amount of orders in this shop 
@@ -18,7 +18,7 @@ listOf(1, 42, 4).maxOrNull() == 42
 listOf("a", "ab").minByOrNull(String::length) == "a"
 ```
 
-You can use [callable references](https://kotlinlang.org/docs/reference/lambdas.html#instantiating-a-function-type)
+You can use [callable references](https://kotlinlang.org/docs/lambdas.html#instantiating-a-function-type)
 instead of lambdas. This can be especially helpful in call chains, where
 `it` occurs in different lambdas and has different types.
 Implement the `getMostExpensiveProductBy` function using callable references.  

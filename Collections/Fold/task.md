@@ -1,6 +1,6 @@
 ## Fold
 
-Learn about [fold and reduce](https://kotlinlang.org/docs/reference/collection-aggregate.html#fold-and-reduce)
+Learn about [fold and reduce](https://kotlinlang.org/docs/collection-aggregate.html#fold-and-reduce)
 and implement a function that returns the set of products that were ordered by all the customers using
 [`fold`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/fold.html).
 

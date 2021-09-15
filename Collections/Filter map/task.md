@@ -1,7 +1,7 @@
 ## Filter; map
 
-Learn about [mapping](https://kotlinlang.org/docs/reference/collection-transformations.html#mapping) and 
-[filtering](https://kotlinlang.org/docs/reference/collection-filtering.html#filtering-by-predicate) a collection.
+Learn about [mapping](https://kotlinlang.org/docs/collection-transformations.html#mapping) and 
+[filtering](https://kotlinlang.org/docs/collection-filtering.html#filtering-by-predicate) a collection.
 
 Implement the following extension functions
 using the

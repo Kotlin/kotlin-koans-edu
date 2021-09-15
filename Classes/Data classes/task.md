@@ -1,8 +1,8 @@
 ## Data classes
 
-Learn about [classes](https://kotlinlang.org/docs/reference/classes.html),
-[properties](https://kotlinlang.org/docs/reference/properties.html)
-and [data classes](https://kotlinlang.org/docs/reference/data-classes.html)
+Learn about [classes](https://kotlinlang.org/docs/classes.html),
+[properties](https://kotlinlang.org/docs/properties.html)
+and [data classes](https://kotlinlang.org/docs/data-classes.html)
 and then rewrite the following Java code to Kotlin:
 
 ```java

@@ -1,6 +1,6 @@
 ## Group By
 
-Learn about [grouping](https://kotlinlang.org/docs/reference/collection-grouping.html).
+Learn about [grouping](https://kotlinlang.org/docs/collection-grouping.html).
 Use
 [`groupBy`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/group-by.html)
 to implement the function to build a map that stores the customers living in a given city.

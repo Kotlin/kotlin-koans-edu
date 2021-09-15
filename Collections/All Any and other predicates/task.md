@@ -1,7 +1,7 @@
 ## All, Any, and other predicates
 
-Learn about [testing predicates](https://kotlinlang.org/docs/reference/collection-filtering.html#testing-predicates)
-and [retrieving elements by condition](https://kotlinlang.org/docs/reference/collection-elements.html#retrieving-by-condition).
+Learn about [testing predicates](https://kotlinlang.org/docs/collection-filtering.html#test-predicates)
+and [retrieving elements by condition](https://kotlinlang.org/docs/collection-elements.html#retrieve-by-condition).
 
 Implement the following functions using
 [`all`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/all.html),

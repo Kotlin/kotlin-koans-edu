@@ -1,6 +1,6 @@
 ## FlatMap
 
-Learn about [flattening](https://kotlinlang.org/docs/reference/collection-transformations.html#flattening)
+Learn about [flattening](https://kotlinlang.org/docs/collection-transformations.html#flatten)
 and implement two functions using
 [`flatMap`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/flat-map.html):
 - The first should return all products the given customer has ordered

@@ -1,7 +1,7 @@
 ## Partition
 
-Learn about [partitioning](https://kotlinlang.org/docs/reference/collection-filtering.html#partitioning)
-and the [destructuring declaration](https://kotlinlang.org/docs/reference/multi-declarations.html)
+Learn about [partitioning](https://kotlinlang.org/docs/collection-filtering.html#partition)
+and the [destructuring declaration](https://kotlinlang.org/docs/destructuring-declarations.html)
 syntax that is often used together with `partition`.
 
 Then implement a function for returning customers who have more undelivered orders

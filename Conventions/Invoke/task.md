@@ -1,6 +1,6 @@
 ## Invoke
 
-Objects with an [`invoke()`](https://kotlinlang.org/docs/reference/operator-overloading.html#invoke)
+Objects with an [`invoke()`](https://kotlinlang.org/docs/operator-overloading.html#invoke-operator)
 method can be invoked as a function.
 
 You can add an `invoke` extension for any class, but it's better not to overuse it:

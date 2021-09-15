@@ -6,11 +6,10 @@ Note that each product should be counted as many times as it was ordered.
 
 Use
 [`sum`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/sum.html) or
-[`sumBy`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/sum-by.html).
-If you want to sum up double values, use
-[`sumByDouble`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/sum-by-double.html).
+[`sumOf`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/sum-of.html).
+If you want to sum up double values, use `sumOfDouble`.
 
 ```kotlin
 listOf(1, 5, 3).sum() == 9
-listOf("a", "b", "cc").sumBy { it.length } == 4
+listOf("a", "b", "cc").sumOf { it.length } == 4
 ```
