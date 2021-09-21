@@ -6,7 +6,7 @@ method can be invoked as a function.
 You can add an `invoke` extension for any class, but it's better not to overuse it:
 
 ```kotlin
-fun Int.invoke() { println(this) }
+operator fun Int.invoke() { println(this) }
 
 1() //huh?..
 ```
