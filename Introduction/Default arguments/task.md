@@ -1,6 +1,6 @@
 ## Default arguments
 
-Imagine, you have several overloads of 'foo()' in Java:
+Imagine you have several overloads of 'foo()' in Java:
 
 ```java
 public String foo(String name, int number, boolean toUpperCase) {

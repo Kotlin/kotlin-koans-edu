@@ -10,5 +10,5 @@ to format multiline triple-quoted strings
 in accordance with the surrounding code.
 
 Replace the `trimIndent` call with the `trimMargin` call
-taking `#` as the prefix value, so that the resulting string doesn't contain
+taking `#` as the prefix value so that the resulting string doesn't contain
 the prefix character.

@@ -1,6 +1,6 @@
 ## Named arguments
 
-Make the function `joinOptions()` return the list in a JSON format (e.g., `[a, b, c]`)
+Make the function `joinOptions()` return the list in a JSON format (for example, `[a, b, c]`)
 by specifying only two arguments. 
 
 [Default and named](https://kotlinlang.org/docs/functions.html#default-arguments)
