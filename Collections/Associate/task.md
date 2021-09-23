@@ -6,9 +6,9 @@ Implement the following functions using
 [`associateWith`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/associate-with.html), 
 and [`associate`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/associate.html):
 
-- Build a map from the customer name to the customer
-- Build a map from the customer to their city 
-- Build a map from the customer name to their city
+* Build a map from the customer name to the customer
+* Build a map from the customer to their city 
+* Build a map from the customer name to their city
 
 ```kotlin
 val list = listOf("abc", "cdef")

@@ -8,10 +8,11 @@ Implement the following functions using
 [`any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/any.html),
 [`count`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/count.html),
 [`find`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/find.html):
-- `checkAllCustomersAreFrom` should return true if all customers are from a given city
-- `hasCustomerFrom` should check if there is at least one customer from a given city
-- `countCustomersFrom` should return the number of customers from a given city
-- `findCustomerFrom` should return a customer who lives in a given city, or `null` if there is none
+
+* `checkAllCustomersAreFrom` should return true if all customers are from a given city
+* `hasCustomerFrom` should check if there is at least one customer from a given city
+* `countCustomersFrom` should return the number of customers from a given city
+* `findCustomerFrom` should return a customer who lives in a given city, or `null` if there is none
 
 ```kotlin
 val numbers = listOf(-1, 0, 2)

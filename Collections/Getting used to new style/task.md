@@ -1,4 +1,4 @@
-## Getting used to new style
+## Getting used to the new style
 
 We can rewrite and simplify the following code using lambdas and operations on collections.
 Fill in the gaps in `doSomethingWithCollection`, 

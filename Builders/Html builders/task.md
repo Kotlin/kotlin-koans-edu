@@ -1,9 +1,9 @@
 ## HTML builder
 
-_1._ Fill the table with proper values from the product list.
+1. Fill the table with proper values from the product list.
 The products are declared in `data.kt`.
 
-_2._ Color the table like a chess board.
+2. Color the table like a chessboard.
 Use the `getTitleColor()` and `getCellColor()` functions.
 Pass a color as an argument to the functions `tr`, `td`.
 
