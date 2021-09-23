@@ -17,4 +17,11 @@ class TestComparison {
         val second = MyDate(2014, 7, 11)
         Assert.assertTrue(errorMessage("compareTo") + "$first should go after $second", first > second)
     }
+
+    @Test(timeout = 1000)
+    fun testSame() {
+        val first = MyDate(2014, 7, 11)
+        val second = MyDate(2014, 7, 11)
+        Assert.assertTrue(errorMessage("compareTo") + "$first should be the same as $second", first == second)
+    }
 }
