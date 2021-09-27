@@ -2,13 +2,13 @@ content:
 - Introduction
 - Sort
 - Filter map
+- FlatMap
 - All Any and other predicates
 - Max min
 - Sum
 - Associate
 - GroupBy
 - Partition
-- FlatMap
 - Fold
 - Compound tasks
 - Sequences
