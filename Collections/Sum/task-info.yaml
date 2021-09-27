@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 132
-    length: 64
+    length: 58
     placeholder_text: TODO()
 - name: src/Shop.kt
   visible: true
