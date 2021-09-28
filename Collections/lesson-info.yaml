@@ -6,9 +6,9 @@ content:
 - Associate
 - GroupBy
 - Partition
+- FlatMap
 - Max min
 - Sum
-- FlatMap
 - Fold
 - Compound tasks
 - Sequences
