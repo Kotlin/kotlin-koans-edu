@@ -14,9 +14,9 @@ files:
     placeholder_text: interface Expr
   - offset: 201
     length: 4
-    placeholder_text: Expr
+    placeholder_text: TODO()
   - offset: 251
     length: 4
-    placeholder_text: Expr
+    placeholder_text: TODO()
 - name: test/Tests.kt
   visible: false
