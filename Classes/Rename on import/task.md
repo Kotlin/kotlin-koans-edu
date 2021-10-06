@@ -7,5 +7,5 @@ It can be useful if you want to use two classes or functions with similar names
 from different libraries.
 
 Uncomment the code and make it compile.
-Rename `Random` from the Kotlin package to `KRandom`,
-and `Random` from the java package to `JRandom`.  
+Rename `Random` from the `kotlin` package to `KRandom`,
+and `Random` from the `java` package to `JRandom`. 

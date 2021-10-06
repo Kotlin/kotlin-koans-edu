@@ -3,11 +3,11 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 120
-    length: 44
+  - offset: 122
+    length: 40
     placeholder_text: TODO()
-  - offset: 307
-    length: 110
+  - offset: 315
+    length: 103
     placeholder_text: TODO()
 - name: src/Shop.kt
   visible: true
