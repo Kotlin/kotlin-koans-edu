@@ -2,10 +2,10 @@
 // ordered by the customer. Use `Order.isDelivered` flag.
 fun findMostExpensiveProductBy(customer: Customer): Product? {
     return customer
-            .orders
-            .filter(Order::isDelivered)
-            .flatMap(Order::products)
-            .maxBy(Product::price)
+        .orders
+        .filter(Order::isDelivered)
+        .flatMap(Order::products)
+        .maxByOrNull(Product::price)
 }
 
 // Count the amount of times a product was ordered.

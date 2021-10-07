@@ -15,7 +15,7 @@ tr {
 }
 ```
 
-**'td' is:**
+**`td` is:**
 
 a. a special built-in syntactic construct
 
@@ -38,7 +38,7 @@ tr (color = "yellow") {
 }
 ```
 
-**'color' is:**
+**`color` is:**
 
 a. a new variable declaration
 

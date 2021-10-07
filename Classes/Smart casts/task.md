@@ -1,7 +1,7 @@
 ## Smart casts
 
-Rewrite the following Java code using [smart casts](http://kotlinlang.org/docs/reference/typecasts.html#smart-casts)
-and the [when](http://kotlinlang.org/docs/reference/control-flow.html#when-expression) expression:
+Rewrite the following Java code using [smart casts](https://kotlinlang.org/docs/typecasts.html#smart-casts)
+and the [when](https://kotlinlang.org/docs/control-flow.html#when-expression) expression:
 
 ```java
 public int eval(Expr expr) {

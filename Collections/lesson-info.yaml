@@ -3,12 +3,12 @@ content:
 - Sort
 - Filter map
 - All Any and other predicates
-- Max min
-- Sum
 - Associate
 - GroupBy
 - Partition
 - FlatMap
+- Max min
+- Sum
 - Fold
 - Compound tasks
 - Sequences

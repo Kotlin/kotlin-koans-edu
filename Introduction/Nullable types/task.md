@@ -1,7 +1,7 @@
 ## Nullable types
 
 Learn about
-[null safety and safe calls](http://kotlinlang.org/docs/reference/null-safety.html)
+[null safety and safe calls](https://kotlinlang.org/docs/null-safety.html)
 in Kotlin and rewrite the following Java code so that it only has one `if` expression:
 
 ```java

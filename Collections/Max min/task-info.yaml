@@ -4,10 +4,10 @@ files:
   visible: true
   placeholders:
   - offset: 122
-    length: 34
+    length: 40
     placeholder_text: TODO()
-  - offset: 309
-    length: 96
+  - offset: 315
+    length: 103
     placeholder_text: TODO()
 - name: src/Shop.kt
   visible: true

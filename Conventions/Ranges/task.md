@@ -1,13 +1,13 @@
 ## Ranges
 
-Using [ranges](http://kotlinlang.org/docs/reference/ranges.html)
+Using [ranges](https://kotlinlang.org/docs/ranges.html)
 implement a function that checks whether the date is in the range
 between the first date and the last date (inclusive).
 
 You can build a range of any comparable elements.
-In Kotlin [`in` checks](https://kotlinlang.org/docs/reference/operator-overloading.html#in)
+In Kotlin [`in` checks](https://kotlinlang.org/docs/operator-overloading.html#in-operator)
 are translated to the corresponding `contains` calls
-and [`..`](https://kotlinlang.org/docs/reference/operator-overloading.html#arithmetic)
+and [`..`](https://kotlinlang.org/docs/operator-overloading.html#arithmetic-operators)
 to `rangeTo` calls:
 
 ```kotlin

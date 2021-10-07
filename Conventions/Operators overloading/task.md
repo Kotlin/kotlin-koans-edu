@@ -1,6 +1,6 @@
 ## Operators overloading
 
-Implement date arithmetic. Support adding years, weeks, and days to a date.
+Implement date arithmetic and support adding years, weeks, and days to a date.
 You could write the code like this: `date + YEAR * 2 + WEEK * 3 + DAY * 15`.
 
 First, add the extension function `plus()` to `MyDate`, taking the `TimeInterval` as an argument.
