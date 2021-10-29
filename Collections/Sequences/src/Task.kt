@@ -5,7 +5,7 @@ fun findMostExpensiveProductBy(customer: Customer): Product? {
             .orders
             .asSequence()
             .filter(Order::isDelivered)
-            .flatMap { it.products.asSequence() }
+            .flatMap(Order::products)
             .maxByOrNull(Product::price)
 }
 
@@ -19,4 +19,4 @@ fun Shop.getNumberOfTimesProductWasOrdered(product: Product): Int {
 }
 
 fun Customer.getOrderedProducts(): Sequence<Product> =
-        orders.flatMap(Order::products).asSequence()
+        orders.asSequence().flatMap(Order::products)
