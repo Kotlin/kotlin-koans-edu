@@ -1,6 +1,6 @@
 ## Triple-quoted strings
 
-Learn about the [different string literals and string templates](https://kotlinlang.org/docs/basic-types.html#string-literals)
+Learn about the [different string literals and string templates](https://kotlinlang.org/docs/strings.html#string-literals)
 in Kotlin.
 
 You can use the handy library functions 
