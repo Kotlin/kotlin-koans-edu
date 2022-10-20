@@ -1,6 +1,7 @@
 ## Fold
 
 Learn about [fold and reduce](https://kotlinlang.org/docs/collection-aggregate.html#fold-and-reduce)
+and about [set-specific operations](https://kotlinlang.org/docs/set-operations.html),
 and implement a function that returns the set of products that all the customers ordered using [`fold`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/fold.html).
 
 You can use the `Customer.getOrderedProducts()` defined in the previous task (copy its implementation).
@@ -11,3 +12,8 @@ listOf(1, 2, 3, 4)
         element * partProduct
     } == 24
 ```
+<div class="hint">
+
+You might also need the 
+[intersect](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/intersect.html) function. 
+</div>
