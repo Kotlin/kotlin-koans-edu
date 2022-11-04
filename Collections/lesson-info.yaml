@@ -9,7 +9,7 @@ content:
 - FlatMap
 - Max min
 - Sum
-- Fold
+- Fold and reduce
 - Compound tasks
 - Sequences
 - Getting used to new style

@@ -3,11 +3,11 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 120
-    length: 206
+  - offset: 115
+    length: 131
     placeholder_text: TODO()
-  - offset: 389
-    length: 31
+  - offset: 302
+    length: 39
     placeholder_text: TODO()
 - name: src/Shop.kt
   visible: true
@@ -15,4 +15,3 @@ files:
   visible: false
 - name: test/TestShop.kt
   visible: false
-feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeYool5qTz-p77fzn_9UKQVjO3u3Al6WjzEyW5cbjspRwtQig/viewform?usp=pp_url&entry.2103429047=Collections+/+Fold
