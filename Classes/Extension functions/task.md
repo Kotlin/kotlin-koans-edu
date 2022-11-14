@@ -11,3 +11,7 @@ data class Pair<out A, out B>(
     val second: B
 )
 ```
+
+<div class="hint">
+  In the case of <code>Int</code>, the denominator is 1.
+</div>
