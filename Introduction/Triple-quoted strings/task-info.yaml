@@ -8,3 +8,4 @@ files:
     placeholder_text: .trimIndent()
 - name: test/Tests.kt
   visible: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeYool5qTz-p77fzn_9UKQVjO3u3Al6WjzEyW5cbjspRwtQig/viewform?usp=pp_url&entry.2103429047=Introduction+/+Triple-Quoted+Strings
