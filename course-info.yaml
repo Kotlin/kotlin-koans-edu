@@ -1,8 +1,12 @@
-title: Kotlin Koans
 type: marketplace
+title: Kotlin Koans
 language: English
 summary: Kotlin Koans are a series of exercises to get you familiar with the Kotlin
   syntax
+vendor:
+  name: JetBrains
+  email: support@jetbrains.com
+  url: https://www.jetbrains.com/
 programming_language: Kotlin
 content:
 - Introduction
