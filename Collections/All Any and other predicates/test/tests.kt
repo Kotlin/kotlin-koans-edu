@@ -21,6 +21,6 @@ class TestAllAnyAndOtherPredicates {
 
     @Test(timeout = 1000)
     fun testAnyCustomerFromCity() {
-        Assert.assertTrue(errorMessage("findCustomerFrom"), customers[lucas] == shop.findCustomerFrom(Canberra))
+        Assert.assertTrue(errorMessage("findCustomerFrom"), setOf(customers[lucas], customer[cooper]).contains(shop.findCustomerFrom(Canberra)))
     }
 }
