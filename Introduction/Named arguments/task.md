@@ -3,8 +3,8 @@
 Make the function `joinOptions()` return the list in a JSON format (for example, `[a, b, c]`)
 by specifying only two arguments. 
 
-[Default and named](https://kotlinlang.org/docs/functions.html#default-arguments)
-arguments help to minimize the number of overloads and improve the readability of the function invocation.
+[Named arguments](https://kotlinlang.org/docs/functions.html#named-arguments) and [Parameters with default values](https://kotlinlang.org/docs/functions.html#parameters-with-default-values)
+ help to minimize the number of overloads and improve the readability of the function invocation.
 The library function [`joinToString`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/join-to-string.html)
 is declared with default values for parameters:
 
