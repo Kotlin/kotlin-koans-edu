@@ -1,7 +1,7 @@
 fun eval(expr: Expr): Int =
         when (expr) {
-            is Num -> expr.value
-            is Sum -> eval(expr.left) + eval(expr.right)
+            is Num -> TODO()
+            is Sum -> TODO()
             else -> throw IllegalArgumentException("Unknown expression")
         }
 

@@ -3,8 +3,7 @@ class Invokable {
         private set
 
     operator fun invoke(): Invokable {
-        numberOfInvocations++
-        return this
+        TODO()
     }
 }
 
